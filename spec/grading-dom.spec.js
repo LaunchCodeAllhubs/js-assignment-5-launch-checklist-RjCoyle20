@@ -84,6 +84,7 @@ describe ("GRADING DOM MANIPULATION TEST: ", function () {
       expect(copilotStatus.textContent).toEqual("Co-pilot Bob is ready for launch");
      expect(fuelStatus.textContent).toEqual("Fuel level high enough for launch");
      expect(cargoStatus.textContent).toEqual("Cargo mass too heavy for launch");
+     
 
    })
 
@@ -110,6 +111,7 @@ describe ("GRADING DOM MANIPULATION TEST: ", function () {
       expect(copilotStatus.textContent).toEqual("Co-pilot Bob is ready for launch");
      expect(fuelStatus.textContent).toEqual("Fuel level high enough for launch");
      expect(cargoStatus.textContent).toEqual("Cargo mass low enough for launch");
+     
    }) 
 
    it ("Mission target has the appropriate info", function() {
